@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-03T12:54:10 EET" name="Suite" finished-at="2021-10-03T12:56:15 EET" duration-ms="124954">
+    <groups>
+    </groups>
+    <test started-at="2021-10-03T12:54:10 EET" name="Test" finished-at="2021-10-03T12:56:15 EET" duration-ms="124954">
+      <class name="corporateModuleTestCases.CorporateUpdating">
+        <test-method is-config="true" signature="prepareReport()[pri:0, instance:corporateModuleTestCases.CorporateUpdating@72a7c7e0]" started-at="2021-10-03T12:54:10 EET" name="prepareReport" finished-at="2021-10-03T12:54:10 EET" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareReport -->
+        <test-method is-config="true" signature="openWebsite(java.lang.String, java.lang.String)[pri:0, instance:corporateModuleTestCases.CorporateUpdating@72a7c7e0]" started-at="2021-10-03T12:54:10 EET" name="openWebsite" finished-at="2021-10-03T12:56:02 EET" duration-ms="111256" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://10.95.0.202:9080/corporate-wallets/orange/admin-login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method is-config="true" signature="reportStartTest(java.lang.reflect.Method)[pri:0, instance:corporateModuleTestCases.CorporateUpdating@72a7c7e0]" started-at="2021-10-03T12:56:04 EET" name="reportStartTest" finished-at="2021-10-03T12:56:04 EET" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void corporateModuleTestCases.CorporateUpdating.superadminLogin(data.models.LoginSuperDM) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportStartTest -->
+        <test-method signature="superadminLogin(data.models.LoginSuperDM)[pri:1, instance:corporateModuleTestCases.CorporateUpdating@72a7c7e0]" started-at="2021-10-03T12:56:04 EET" name="superadminLogin" data-provider="superadminLoginTDProvider" finished-at="2021-10-03T12:56:06 EET" duration-ms="2262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.models.LoginSuperDM@99a78d7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- superadminLogin -->
+        <test-method is-config="true" signature="reportEndTest(java.lang.reflect.Method)[pri:0, instance:corporateModuleTestCases.CorporateUpdating@72a7c7e0]" started-at="2021-10-03T12:56:06 EET" name="reportEndTest" finished-at="2021-10-03T12:56:06 EET" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void corporateModuleTestCases.CorporateUpdating.superadminLogin(data.models.LoginSuperDM) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportEndTest -->
+        <test-method is-config="true" signature="reportStartTest(java.lang.reflect.Method)[pri:0, instance:corporateModuleTestCases.CorporateUpdating@72a7c7e0]" started-at="2021-10-03T12:56:08 EET" name="reportStartTest" finished-at="2021-10-03T12:56:08 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void corporateModuleTestCases.CorporateUpdating.corporateUpdating(data.models.CorporateCreationDM) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportStartTest -->
+        <test-method signature="corporateUpdating(data.models.CorporateCreationDM)[pri:2, instance:corporateModuleTestCases.CorporateUpdating@72a7c7e0]" started-at="2021-10-03T12:56:08 EET" name="corporateUpdating" data-provider="CreateCorporateTDProvider" finished-at="2021-10-03T12:56:15 EET" duration-ms="7503" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data.models.CorporateCreationDM@474fae39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- corporateUpdating -->
+        <test-method is-config="true" signature="reportEndTest(java.lang.reflect.Method)[pri:0, instance:corporateModuleTestCases.CorporateUpdating@72a7c7e0]" started-at="2021-10-03T12:56:15 EET" name="reportEndTest" finished-at="2021-10-03T12:56:15 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void corporateModuleTestCases.CorporateUpdating.corporateUpdating(data.models.CorporateCreationDM) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportEndTest -->
+        <test-method is-config="true" signature="closeReport()[pri:0, instance:corporateModuleTestCases.CorporateUpdating@72a7c7e0]" started-at="2021-10-03T12:56:16 EET" name="closeReport" finished-at="2021-10-03T12:56:16 EET" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReport -->
+      </class> <!-- corporateModuleTestCases.CorporateUpdating -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

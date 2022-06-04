@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="listeners.CorporatePayrollListeners"></listener>
+</listeners>
+
+  <test thread-count="5" name="Test">
+  
+    <parameter name="browserType" value="Chrome" />
+    <parameter name="superLoginScreenURL" value="http://10.95.0.202:9080/corporate-wallets/orange/admin-login" />
+	<parameter name="makerLoginScreenURL" value="http://10.95.0.202:9080/corporate-wallets/orange/login" />
+    <parameter name="SuperHomeScreenURL" value="http://10.95.0.202:9080/corporate-wallets/orange/sme" />
+    
+    <classes>
+    
+<!--       <class name="corporateModuleTestCases.CorporateCreation">
+      <methods>
+        <exclude name="createCorporateBySuperAdmin" />
+        <exclude name="searchAboutCorporateBySuperAdmin" />   
+        <exclude name="poolCreation" />   
+        <exclude name="voucherPoolCreation" />       
+      </methods>   
+      </class>
+       -->
+       
+       <class name="corporateModuleTestCases.CorporateUpdating"/>
+      
+      <!--  <class name="employeeModuleTestCases.EmployeeCreation"/> -->
+      
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
